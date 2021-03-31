@@ -23,7 +23,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployees
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves employees
       parameters:
         - in: query
@@ -121,7 +121,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployee
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates an employees
       responses:
         '200':
@@ -195,7 +195,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployee
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves an employees using a unique employee ID
       parameters:
         - name: EmployeeID
@@ -249,7 +249,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateEmployee
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates an existing employee
       parameters:
         - name: EmployeeID
@@ -332,7 +332,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployment
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates an employment detail for a specific employee
       parameters:
         - name: EmployeeID
@@ -387,7 +387,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeTax
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves tax records for a specific employee 
       parameters:
         - name: EmployeeID
@@ -437,7 +437,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateEmployeeTax
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates the tax records for a specific employee 
       parameters:
         - name: EmployeeID
@@ -472,7 +472,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeOpeningBalances
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves the opening balance for a specific employee
       parameters:
         - name: EmployeeID
@@ -517,7 +517,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeOpeningBalances
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates opening balances for a specific employee
       parameters:
         - name: EmployeeID
@@ -573,7 +573,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeLeaves
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves leave records for a specific employee
       parameters:
         - name: EmployeeID
@@ -623,7 +623,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeLeave
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates leave records for a specific employee
       parameters:
         - name: EmployeeID
@@ -692,7 +692,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateEmployeeLeave
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates leave records for a specific employee
       parameters:
         - name: EmployeeID
@@ -774,7 +774,7 @@ paths:
       tags:
         - PayrollNz
       operationId: deleteEmployeeLeave
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Deletes a leave record for a specific employee
       parameters:
         - name: EmployeeID
@@ -817,7 +817,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeLeaveBalances
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves leave balances for a specific employee
       parameters:
         - name: EmployeeID
@@ -883,7 +883,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeLeavePeriods
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves leave periods for a specific employee
       parameters:
         - name: EmployeeID
@@ -951,7 +951,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeLeaveSetup
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a leave set-up for a specific employee. This is required before viewing, configuring and requesting leave for an employee
       parameters:
         - name: EmployeeID
@@ -1013,7 +1013,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeLeaveTypes
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves leave types for a specific employee
       parameters:
         - name: EmployeeID
@@ -1065,7 +1065,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeLeaveType
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates leave type records for a specific employee
       parameters:
         - name: EmployeeID
@@ -1132,7 +1132,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeePaymentMethod
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves available payment methods for a specific employee
       parameters:
         - name: EmployeeID
@@ -1184,7 +1184,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeePaymentMethod
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a payment method for an employee
       parameters:
         - name: EmployeeID
@@ -1225,7 +1225,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeePayTemplates
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves pay templates for a specific employee
       parameters:
         - name: EmployeeID
@@ -1284,7 +1284,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeEarningsTemplate
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates earnings template records for an employee
       parameters:
         - name: EmployeeID
@@ -1345,7 +1345,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateEmployeeEarningsTemplate
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates an earnings template records for an employee
       parameters:
         - name: EmployeeID
@@ -1452,7 +1452,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createMultipleEmployeeEarningsTemplate
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates multiple employee earnings template records for a specific employee
       parameters:
         - name: EmployeeID
@@ -1518,7 +1518,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getDeductions
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves deductions for a specific employee
       parameters:
         - in: query
@@ -1570,7 +1570,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createDeduction
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new deduction for a specific employee
       responses:
         '200':
@@ -1621,7 +1621,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getDeduction
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a single deduction by using a unique deduction ID
       parameters:
         - in: path
@@ -1814,7 +1814,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createSuperannuation
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new superannuation
       responses:
         '200':
@@ -1917,7 +1917,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEarningsRates
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves earnings rates
       parameters:
         - in: query
@@ -1989,7 +1989,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEarningsRate
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new earnings rate
       responses:
         '200':
@@ -2046,7 +2046,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEarningsRate
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific earnings rates by using a unique earnings rate id
       parameters:
         - in: path
@@ -2092,7 +2092,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getLeaveTypes
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves leave types
       parameters:
         - in: query
@@ -2149,7 +2149,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createLeaveType
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new leave type
       responses:
         '200':
@@ -2200,7 +2200,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getLeaveType
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific leave type by using a unique leave type ID
       parameters:
         - in: path
@@ -2242,7 +2242,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getReimbursements
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves reimbursements
       parameters:
         - in: query
@@ -2289,7 +2289,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createReimbursement
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new reimbursement
       responses:
         '200':
@@ -2344,7 +2344,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getReimbursement
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific reimbursement by using a unique reimbursement ID
       parameters:
         - in: path
@@ -2389,7 +2389,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getTimesheets
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves timesheets
       parameters:
         - in: query
@@ -2447,7 +2447,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createTimesheet
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new timesheet
       responses:
         '200':
@@ -2529,7 +2529,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getTimesheet
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific timesheet by using a unique timesheet ID
       parameters:
         - in: path
@@ -2632,7 +2632,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createTimesheetLine
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Create a new timesheet line for a specific time sheet
       parameters:
         - in: path
@@ -2690,7 +2690,7 @@ paths:
       tags:
         - PayrollNz
       operationId: approveTimesheet
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Approves a timesheet
       parameters:
         - in: path
@@ -2770,7 +2770,7 @@ paths:
       tags:
         - PayrollNz
       operationId: revertTimesheet
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Reverts a timesheet to draft
       parameters:
         - in: path
@@ -2850,7 +2850,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateTimesheetLine
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates a timesheet line for a specific timesheet
       parameters:
         - in: path
@@ -2958,7 +2958,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPayRunCalendars
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves payrun calendars
       parameters:
         - in: query
@@ -3012,7 +3012,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createPayRunCalendar
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a new payrun calendar
       responses:
         '200':
@@ -3065,7 +3065,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPayRunCalendar
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific payrun calendar by using a unique payroll calendar ID
       parameters:
         - in: path
@@ -3108,7 +3108,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeSalaryAndWages
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves an employee's salary and wages
       parameters:
         - name: EmployeeID
@@ -3182,7 +3182,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createEmployeeSalaryAndWage
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates an employee salary and wage record
       parameters:
         - name: EmployeeID
@@ -3252,7 +3252,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getEmployeeSalaryAndWage
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves an employee's salary and wages record by using a unique salary and wage ID
       parameters:
         - name: EmployeeID
@@ -3306,7 +3306,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updateEmployeeSalaryAndWage
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates an employee's salary and wages record
       parameters:
         - name: EmployeeID
@@ -3423,7 +3423,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPayRuns
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves pay runs
       parameters:
         - in: query
@@ -3481,7 +3481,7 @@ paths:
       tags:
         - PayrollNz
       operationId: createPayRun
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates a pay run
       responses:
         '200':
@@ -3581,7 +3581,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPayRun
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific pay run by using a unique pay run ID
       parameters:
         - in: path
@@ -3647,7 +3647,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updatePayRun
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Updates a pay run
       parameters:
         - in: path
@@ -3821,7 +3821,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPaySlips
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves payslips
       parameters:
         - in: query
@@ -3992,7 +3992,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getPaySlip
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves a specific payslip by a unique pay slip ID
       parameters:
         - in: path
@@ -4148,7 +4148,7 @@ paths:
       tags:
         - PayrollNz
       operationId: updatePaySlipLineItems
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Creates an employee pay slip
       parameters:
         - in: path
@@ -4441,7 +4441,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getSettings
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves settings
       responses:
         '200':
@@ -4495,7 +4495,7 @@ paths:
       tags:
         - PayrollNz
       operationId: getTrackingCategories
-      x-hasPayrollUkProblem: true
+      x-hasPayrollNzProblem: true
       summary: Retrieves tracking categories
       responses:
         '200':

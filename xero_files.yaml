@@ -131,12 +131,12 @@ paths:
           content:
             application/json:
               example: '[
-                      {
-                          "type":"Validation",
-                          "title":"Validation failure",
-                          "detail":"Extension: boo is not a valid File extension."
-                      }
-                    ]'
+                          {
+                            "type": "Validation",
+                            "title": "Validation failure",
+                            "detail": "Extension: boo is not a valid File extension."
+                          }
+                        ]'
       requestBody:
         content:
           multipart/form-data:
@@ -232,7 +232,7 @@ paths:
                           {
                               "type":"Rename",
                               "title":"Rename failed",
-                              "detail":"Unable to rename efd77bfc-7018-4da1-b251-7aa2d438382c to FooBar"
+                              "detail": "Unable to rename efd77bfc-7018-4da1-b251-7aa2d438382c to FooBar"
                           }
                         ]'
       requestBody:
@@ -311,12 +311,12 @@ paths:
           content:
             application/json:
               example: '[
-                      {
-                          "type":"Validation",
-                          "title":"Validation failure",
-                          "detail":"Extension: boo is not a valid File extension."
-                      }
-                    ]'
+                          {
+                            "type": "Validation",
+                            "title": "Validation failure",
+                            "detail": "Extension: boo is not a valid File extension."
+                          }
+                        ]'
       requestBody:
         content:
           multipart/form-data:
@@ -424,9 +424,9 @@ paths:
             application/json:
               example: '[
                           {
-                              "type":"Validation",
-                              "title":"Validation failure",
-                              "detail":"Object is not a Account"
+                            "type": "Validation",
+                            "title": "Validation failure",
+                            "detail": "Object is not a Account"
                           }
                         ]'
       requestBody:
@@ -582,9 +582,9 @@ paths:
             application/json:
               example: '[
                           {
-                              "type":"Validation",
-                              "title":"Validation failure",
-                              "detail":"Name contains one or more bad characters"
+                            "type": "Validation",
+                            "title": "Validation failure",
+                            "detail": "Name contains one or more bad characters"
                           }
                         ]'
       requestBody:
@@ -664,9 +664,9 @@ paths:
             application/json:
               example: '[
                           {
-                              "type":"Validation",
-                              "title":"Validation failure",
-                              "detail":"Name contains one or more bad characters"
+                            "type": "Validation",
+                            "title": "Validation failure",
+                            "detail": "Name contains one or more bad characters"
                           }
                         ]'
       requestBody:
