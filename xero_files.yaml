@@ -449,7 +449,7 @@ paths:
         - Files
       summary: Deletes an existing file association
       operationId: deleteFileAssociation
-      description: By passing in the appropriate options, you can create a new folder
+      description: By passing in the appropriate options, you can delete a file association
       parameters: 
         - name: FileId
           in: path
